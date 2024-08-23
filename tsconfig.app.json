@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+
+    /* self add */
+    "sourceMap": true, 
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "noImplicitAny": false,
+    "allowJs": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx","src/**/*.vue", "src/vite.env.d.ts", "shims.d.ts"],  // self add
+  // "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

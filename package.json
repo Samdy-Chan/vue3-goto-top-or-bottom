@@ -1,0 +1,38 @@
+{
+  "name": "vue3-goto-top-or-bottom",
+  "private": false,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@samdy-chan/vue3-goto-top-or-bottom": "^1.0.1",
+    "vue": "^3.4.37",
+    "vue3-goto-top-or-bottom": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  },
+  "keywords": [
+    "goto top",
+    "go to top",
+    "scroll to top",
+    "goto bottom",
+    "go to bottom",
+    "scroll to bottom",
+    "top icon",
+    "bottom icon",
+    "回到顶部",
+    "回到底部"
+  ],
+  "author": "Samdy_Chan",
+  "license": "ISC"
+}
